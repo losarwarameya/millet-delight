@@ -1,5 +1,5 @@
 const express = require('express');
-const mongoose = require('mongoose');
+const User = require('./db/db').User;
 
 const app = express();
 const port = 3000;
